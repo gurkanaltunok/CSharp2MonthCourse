@@ -15,6 +15,8 @@ namespace Methods
 
         public string Aciklama { get; set; }
 
+        public int StokAdedi { get; set; }
+
 
     }
 }

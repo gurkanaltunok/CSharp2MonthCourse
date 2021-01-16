@@ -32,6 +32,11 @@ namespace Methods
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle(urun1);
             sepetManager.Ekle(urun2);
+            //encapsulation
+            sepetManager.Ekle2("Armut", "Yeşil Armut", 12, 10);
+            sepetManager.Ekle2("Elma", "Yeşil Elma", 8, 5);
+            sepetManager.Ekle2("Karpuz", "Diyarbakır Karpuzu", 50, 20);
+
 
             Console.ReadLine();
         }
