@@ -7,9 +7,10 @@ namespace Matematik
         static void Main(string[] args)
         {
             DortIslem dortIslem = new DortIslem();
-            dortIslem.Topla(5, 6);
-            dortIslem.Topla(6, 9);
-            dortIslem.Carp(2, 5);
+            dortIslem.Toplama(5, 6);
+            dortIslem.Cikartma(15, 9);
+            dortIslem.Carpma(2, 5);
+            dortIslem.Bolme(24, 36);
         }
     }
 }
